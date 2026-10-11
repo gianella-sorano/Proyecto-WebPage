@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'length\\($0\\)>500 {print NR\": \"length\\($0\\)\" chars: \"substr\\($0,1,120\\)}' index.html)"
+    ]
+  }
+}
